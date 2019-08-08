@@ -1,0 +1,9 @@
+# package dir
+node_modules/
+
+# config dir
+src/config
+
+# next.js
+src/.next
+

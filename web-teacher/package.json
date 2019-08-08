@@ -1,0 +1,48 @@
+{
+  "name": "OnlyUs-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wlsdud2194/OnlyUs-web.git",
+  "author": "wlsdud2194 <wlsdud2194@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next ./src"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1",
+    "next": "^9.0.3",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "react-tooltip": "^3.10.0",
+    "sweetalert2": "^8.15.2"
+  }
+}

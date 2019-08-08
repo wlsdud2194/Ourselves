@@ -1,0 +1,49 @@
+.nav {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  color: white;
+  background-color: #1B2033;
+  font-family: 'Nanum Square';
+
+  &-wrap {
+    margin-top: 6rem;
+  }
+
+  &-userInfo {
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+
+    &_item {
+      margin-bottom: 0.8rem;
+
+      & > img {
+        width: 6rem;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  &-menu {
+
+    &_item {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      padding: 1rem 2rem 1rem;
+    }
+
+    &_name {
+      margin-left: 14px;
+    }
+  }
+}
+
+.group {
+  font-size: 12px;
+}
+
+.activeNav {
+  border-left: 6px solid #F55B63;
+  background-color: #0B1023;
+}

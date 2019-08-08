@@ -1,0 +1,38 @@
+.study {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 7rem;
+  padding: 2rem 1.2rem 2rem;
+  border-radius: 3px;
+  box-shadow: 0 0 4px 2px #f2f2f2;
+
+  &-img {
+    width: 30%;
+  }
+
+  &-info {
+    width: 70%;
+  }
+
+  &-img img {
+    width: 6rem;
+    border-radius: 50%;
+  }
+
+  &-info {
+
+    &_item {
+      margin-top: 3px;
+      display: flex;
+      flex-direction: row;
+
+      &_title {
+        font-weight: 700;
+      }
+
+      &_name {
+        margin-left: 5px;
+      }
+    }
+  }
+}

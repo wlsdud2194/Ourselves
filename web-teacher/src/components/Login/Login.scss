@@ -1,0 +1,78 @@
+.login {
+  height: 100%;
+  font-family: 'Nanum Square';
+  background-color: #E4EAF6;
+
+  &-wrap {
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1.5px #cccccc;
+    width: 26rem;
+    height: 28rem;
+    background-color: #F2F2F1;
+  }
+
+  &-header {
+    margin: 2rem 0 2rem;
+  }
+
+  &-round {
+    // position: absolute;
+    background-color: #fff;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 0 0 1rem;
+  }
+
+  &-logo {
+    width: 6rem;
+  }
+
+  &-input-wrap {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &-input {
+    width: 250px;
+    padding: 15px;
+    outline: none;
+    border: 2px solid #A5A5A5;
+    border-radius: 20px;
+  }
+
+  &-found {
+    cursor: pointer;
+    width: 250px;
+    text-align: right;
+    font-size: 12px;
+    color: #A5A5A5;
+    margin: 0 auto;
+  }
+
+  &-btn {
+    cursor: pointer;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    margin: 1rem 0 0;
+    padding: 10px 33px 10px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #F55B63;
+  }
+
+  &-foot {
+    padding: 0 1.5rem;
+    font-size: 10px;
+    color: #A5A5A5;
+    text-align: right;
+
+    &-registar {
+      cursor: pointer;
+      font-weight: bold;
+      color: #535353;
+    }
+  }
+}

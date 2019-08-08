@@ -1,0 +1,47 @@
+.header {
+  width: 80%;
+  display: flex;
+  flex-direction: raw;
+  background-color: #fff;
+  box-shadow: 0 0 4px 2px #999999;
+  margin-left: auto;
+  font-family: 'Nanum Square';
+
+  &-search {
+    flex: 1;
+    color: #BEBEBE;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: raw;
+
+    &_input {
+      margin-left: 1rem;
+      font-size: 16px;
+      width: 50rem;
+      outline: none;
+      border: 0;
+    }
+  }
+
+  &-icon {
+    color: #707070;
+    display: flex;
+    flex-direction: raw;
+    margin-right: 1.5rem;
+
+    &_item {
+      cursor: pointer;
+      font-size: 1.8rem;
+      margin: 0 8px;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+.search {
+  font-size: 1.8rem;
+}
