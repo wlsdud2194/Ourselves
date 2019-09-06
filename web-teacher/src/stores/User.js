@@ -11,16 +11,9 @@ class User {
     return this.instance;
   }
 
-  @observable.ref token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW1iZXJJZCI6InRlYWNoZXIxIiwiYXV0aCI6MSwiaWF0IjoxNTY1MTE3ODI3LCJleHAiOjE1NzAzMDE4MjcsInN1YiI6InRva2VuIn0.r2za4w2ToBvWtkKaHY6V7dDgLeNzhV1kY9ue12uhA0A';
+  @observable.ref token = '';
   @observable.ref refreshToken = null;
-  @observable.ref myInfo = {
-    group: "학생관리부",
-    id: "teacher1",
-    name: "김경호",
-    phoneNumber: "010-1111-1234",
-    profileImg: "",
-    school: "대구소프트웨어고",
-  };
+  @observable.ref myInfo = {};
 
   @action login = async (id, pw) => {
     console.log('asd', id, pw);
